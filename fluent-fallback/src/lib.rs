@@ -26,7 +26,7 @@
 //! ```
 //! use fluent_fallback::{Localization, types::{ResourceType, ToResourceId}};
 //! use fluent_resmgr::ResourceManager;
-//! use unic_langid::langid;
+//! use icu_locid::langid;
 //!
 //! let res_mgr = ResourceManager::new("./tests/resources/{locale}/".to_string());
 //!
